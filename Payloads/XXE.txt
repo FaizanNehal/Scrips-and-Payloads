@@ -1,0 +1,9 @@
+
+-----------BASIC test to see if the endpoint is accepting DTD-----------
+<?xml encoding="UTF-8"?>
+<!DOCTYPE xxe [ <!ENTITY xxe "FaizanNehalXXE"> ]>
+<root>
+&xxe;
+</root>
+
+
