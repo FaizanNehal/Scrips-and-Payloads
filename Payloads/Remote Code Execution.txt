@@ -1,0 +1,14 @@
+;sleep(5);
+phphinfo();
+
+
+
+dir C:\
+
+
+
+;ls;
+;whoami;
+;id;
+id;
+id
