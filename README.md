@@ -6,8 +6,8 @@ I have created this reporsitory to upload my scripts and payloads that I use for
 
 I am uploading the payloads for the following vulnerabilities. I will not upload the payloads for XSS for there are already tons of them all over the github.
 
-*SSRF
-*XXE
-*Github recon
-*GraphQL
-*Remote Code Execution
+* SSRF
+* XXE
+* Github recon
+* GraphQL
+* Remote Code Execution
